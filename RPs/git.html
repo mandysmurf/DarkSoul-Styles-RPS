@@ -106,14 +106,14 @@
 
   <div class="moves-container">
     <button class="move-button js-rock-button">
-    <img class="move-icon" src="RPs/rock-emoji.png" alt="rock" />
+    <img class="move-icon" src="rock-emoji.png" alt="rock" />
 
     </button>
     <button class="move-button js-paper-button">
-      <img class="move-icon" src="RPs/paper-emoji.png" alt="paper" />
+      <img class="move-icon" src="paper-emoji.png" alt="paper" />
     </button>
     <button class="move-button js-scissors-button">
-      <img class="move-icon" src="RPs/scissors-emoji.png" alt="scissors" />
+      <img class="move-icon" src="scissors-emoji.png" alt="scissors" />
     </button>
   </div>
 
@@ -178,7 +178,7 @@
       updateScore();
 
       jsResultElement.innerHTML = `${result}<br><em>${detail}</em>`;
-   jsMoveElement.innerHTML = `You <img src="RPs/${playerMove}-emoji.png" class="move-icon"> vs <img src="RPs/${computerMove}-emoji.png" class="move-icon"> Foe`;
+   jsMoveElement.innerHTML = `You <img src="${playerMove}-emoji.png" class="move-icon"> vs <img src="${computerMove}-emoji.png" class="move-icon"> Foe`;
     }
 
     function updateScore() {
